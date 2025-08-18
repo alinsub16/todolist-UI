@@ -1,0 +1,30 @@
+@media only screen
+and (max-width : 1300px) {
+    .main-container{padding: 15px;gap: 15px;}
+
+
+}
+@media only screen
+and (max-width : 1200px) {
+    .main-container{flex-direction: column;gap: 2; }
+    .main-container{max-width: 100%;}
+    .side-nav-con{height: auto; width: 100%;text-align: center;}
+    .side-nav-con nav{flex-direction: unset;justify-content: center;flex-wrap: wrap;}
+    
+
+}
+
+@media only screen
+and (max-width : 800px) {
+    .taskbarfilter{position: relative ; display: contents;}
+    .pagination-control{position: relative ; }
+
+}
+@media only screen
+and (max-width : 600px) {
+    header{flex-direction: column; align-items: end; row-gap: 20px;}
+}
+@media only screen
+and (max-width : 530px) {
+    .skeleton-loader{flex-direction: column; gap: 20px; justify-content: center;height:160px ; align-items: start;}
+}

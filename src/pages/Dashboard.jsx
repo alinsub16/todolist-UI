@@ -11,7 +11,7 @@ const Dashboard = () => {
 
   return (
     <>
-        <div className='dashboard flex py-10 px-5 gap-2 justify-between max-[800px]:flex-col max-[800px]:gap-10'>
+        <div className='dashboard flex py-10 px-5 gap-2 justify-between max-[800px]:flex-col max-[800px]:gap-10 max-[530px]:p-2'>
           <div className='relative mt-10 h-[410px] w-full max-w-[475px] max-[800px]:max-w-full'>
             <TasklistComponent />
           </div>
